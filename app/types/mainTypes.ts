@@ -5,3 +5,10 @@ interface Flight {
 	Intermediate_Locations: string,
 	Board_Number: string
 }
+interface Avialiners {
+	Board_Number: string
+	Aircraft_Type: string
+	Business_Class_Price: number
+	First_Class_Price: number
+	Economy_Class_Price: number
+}
