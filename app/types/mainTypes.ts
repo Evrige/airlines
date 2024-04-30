@@ -12,3 +12,14 @@ interface Avialiners {
 	First_Class_Price: number
 	Economy_Class_Price: number
 }
+interface Sales {
+	Sales_id: number
+	Sale_Date: Date
+	Flight_Number: number
+	Cabin_Type: string
+	Ticket_Count: number
+	Discount_Category: string
+	Departure_Date: Date
+	Total_Price: number
+	Ticket_Price: number
+}
