@@ -14,7 +14,7 @@ const EndPoint = () => {
             <input type="text" value={city} onChange={(e) => setCity(e.target.value)}
                    className="outline-0 bg-transparent border-b-emerald-500 border-b"/>
             <button className="bg-emerald-500 px-2 py-1 ml-2 rounded-xl"
-                    onClick={() => {if(city) getCity(city)}}>Find
+                    onClick={() => {if(city) getCity(city)}}>Знайти
             </button>
             <div className="flex gap-2 mt-5">
                 {list.length > 0 && list[0].Flight_Number !== -1 ? list.map(item => (

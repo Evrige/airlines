@@ -4,6 +4,8 @@ interface Flight {
 	Departure_Location: string,
 	Intermediate_Locations: string,
 	Board_Number: string
+	Count_of_Flights: number
+	Total_Count: number
 }
 interface Avialiners {
 	Board_Number: string
@@ -21,5 +23,8 @@ interface Sales {
 	Discount_Category: string
 	Departure_Date: Date
 	Total_Price: number
+	Total_Count: number
 	Ticket_Price: number
+	Tickets_Sold: number
+	Avg_Price: number
 }
